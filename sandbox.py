@@ -1,13 +1,9 @@
-from Dado import Dado
+from Juego import Juego
 
-dado_1=Dado()
-dado_2=Dado()
+miJuego=Juego()
+
+miJuego.lanzar_punto()
 
 
-dado_1.girar()
-dado_2.girar()
 
-juego= dado_1.getValor()+dado_2.getValor()
-
-print(juego)
 
